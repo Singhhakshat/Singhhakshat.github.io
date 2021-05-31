@@ -1,0 +1,323 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+/* body tag settings */
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Media Tag settings for responsiveness */
+
+@media screen and (min-width: 1281px) 
+{
+    video
+    {
+        width: 100vw;
+        z-index: -100;
+    }
+}
+@media screen and (max-width: 1281px) 
+{
+    video
+    {
+        height: 100vh;
+        z-index: -100;
+    }
+}
+@media screen and (max-width:669px)
+{
+    .P-img img
+    {
+        width: 10em !important;
+        border-radius: 30px ;
+    }
+}
+
+/* Nav bar */
+nav
+{
+    display: flex;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#nav-logo{
+    top: 0;
+    z-index: 10;
+    height: 30px;
+}
+.nav-btn
+{
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+.nav-btn:hover
+{
+    
+    border-radius: 30px;
+    background-color: rgba(160, 160, 160, 0.171);
+}
+
+                                                            /* First page on entry */
+.home
+{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+video
+{
+    z-index: -100;
+}
+.name-home
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    letter-spacing: 2px;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 3em;
+}
+.arrow img
+{
+    z-index: 0;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    width: 6em;
+    transform: translate(-50%);
+}
+.arrow img:hover
+{
+    transform:translate(-50%,10%);
+}
+
+                                                             /* Second Part of the page */
+
+.Our-Collection
+{
+    min-height: 50vh;
+    background-color: pink ;
+    color: white;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.bignsmall h1{
+    align-self: center;
+    font-size: 5em;
+    letter-spacing: 10px;
+}
+#big{
+    font-size: 2em;
+    color: brown;
+}
+#small{
+    font-size: 0.5em;
+    color: yellow;
+}
+.txt2{
+    padding: 10%;
+    padding: 20px;
+    align-self: center;
+    text-align: center;
+}
+#vc{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+#vc:hover{
+    background-color: whitesmoke;
+    text-decoration: underline;
+}
+
+                                                              /* Third part of the page */
+.Design-ur-own-cake
+{
+    min-height: 50vh;
+    background-color: aquamarine ;
+    color: white;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.D-text0{
+    width: 200px;
+    font-size: 2em;
+    letter-spacing: 5px;
+}
+#u{
+    color: red;
+}
+#n{
+    color: orange;
+}
+#i{
+    color: yellow;
+}
+#q{
+    color: green;
+}
+#u{
+    color: red;
+}
+#e{
+    color: indigo;
+}
+#taste{
+    color: violet;
+}
+
+.D-text{
+    font-size: 0.9em;
+    text-align: center ;
+    align-self: center;
+
+}
+#y1{
+    color: red;
+}
+#y2{
+    color: yellow;
+}
+#y3{
+    color: orange;
+}
+#y4{
+    color: green;
+}
+#D-link{
+    background: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+#D-link:hover{
+    background-color: whitesmoke;
+    text-decoration: underline;
+}
+
+                                                            /* Fourth part of the page */
+.Premium-Delicacies
+{
+    min-height: 60vh;
+    background-color: brown ;
+    color: white;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.P-img img{
+    width: 20em;
+    border-radius: 30px ;
+}
+.P-text{
+    align-self: center;
+    color: orange;
+    text-align: center;
+}
+#P-link{
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+                                        /* Fifth part of the page */
+.newsletter
+{
+    min-height: 60vh;
+    background-color: orange ;
+    color: brown;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+#N-l{
+    letter-spacing: 8px;
+    font-size: 1.2em;
+    font-weight: 800;
+    text-align: center;
+    align-self: center;
+}
+#N-r{
+    position: relative;
+    height: 300px;
+    width: 400px;
+    background:url(ff1.png);
+    background-position: center;
+    background-size: 600px 450px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+}
+#N-r form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#N-r form input{
+    width: 20em;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+#text{
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+#N-submit{
+    background-color: brown;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+/* .quote-slideshow{
+    height: 50vh;
+    margin: auto;
+} */
+.Footer
+{
+    background-color: greenyellow;
+    color: black;
+    height: 10vh;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.Footer img{
+    width: 20px;
+}
+.Footer div{
+    align-self: center;
+}
