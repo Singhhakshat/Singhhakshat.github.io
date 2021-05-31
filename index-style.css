@@ -30,7 +30,7 @@ body
 {
     .P-img img
     {
-        width: 5em !important;
+        width: 10em !important;
         border-radius: 30px ;
     }
 }
