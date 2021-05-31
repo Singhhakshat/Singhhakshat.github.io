@@ -69,6 +69,7 @@ nav
                                                             /* First page on entry */
 .home
 {
+    background: url(Thumbnail.png);
     height: 100vh;
     overflow: hidden;
     position: relative;
