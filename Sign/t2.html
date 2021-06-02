@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style-login.css"> -->
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+    <style>
+        *{
+             font-family: 'Roboto', sans-serif;
+        }
+        body{
+            background-color: pink ;
+            color: white;
+            display: flex;    
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-between;
+        }
+        .left{
+            text-align: left;
+            max-width: 100vh;
+            background-color: aliceblue;
+        }
+        .left h1{
+            font-size: 700%;
+        }
+        .right{
+            max-width: 100vh;
+            background-color: aqua;
+        }
+    </style>
+    <title>Sign-in!</title>
+</head>
+<body>
+    <div class="left">
+        <h1>WELCOME BACK CAPTAIN!</h1>
+    </div>
+    <div class="right">
+        <form action="#">
+            <p><input type="email" name="email" id="email" placeholder="E-mail"></p>
+            <p><input type="password" name="pass" id="pass" placeholder="Password"></p>
+            <p id="forgot"><a href="#" id="forgot">Forgot Password?</a></p>
+            <input type="submit" value="Lets Go!"id="submit">
+        </form>
+        <h2>or login with</h2>
+        <a href="#">facebook</a>
+        <a href="#">Google</a>
+        <a href="#">Apple</a>
+    </div>
+</body>
+</html>
