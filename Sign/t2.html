@@ -4,52 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="style-login.css"> -->
-    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
-    <style>
-        *{
-             font-family: 'Roboto', sans-serif;
-        }
-        body{
-            background-color: pink ;
-            color: white;
-            display: flex;    
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-content: center;
-            justify-content: space-between;
-        }
-        .left{
-            text-align: left;
-            max-width: 100vh;
-            background-color: aliceblue;
-        }
-        .left h1{
-            font-size: 700%;
-        }
-        .right{
-            max-width: 100vh;
-            background-color: aqua;
-        }
-    </style>
-    <title>Sign-in!</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="style-loginn.css">
+    <title>Login!</title>
 </head>
 <body>
-    <div class="left">
-        <h1>WELCOME BACK CAPTAIN!</h1>
-    </div>
-    <div class="right">
-        <form action="#">
-            <p><input type="email" name="email" id="email" placeholder="E-mail"></p>
-            <p><input type="password" name="pass" id="pass" placeholder="Password"></p>
-            <p id="forgot"><a href="#" id="forgot">Forgot Password?</a></p>
-            <input type="submit" value="Lets Go!"id="submit">
-        </form>
-        <h2>or login with</h2>
-        <a href="#">facebook</a>
-        <a href="#">Google</a>
-        <a href="#">Apple</a>
+    <nav>
+        <a href="../index.html"><img id="img" src="../logo.png" alt="logo-home"></a>
+        <span id="nav-right">Not a member? 
+        <a id="signup" href="#">Sign-Up</a>
+        </span> 
+    </nav>
+    <div class="container">
+        <div class="left">
+            <div class="left-container">
+                <span id="f1">FOOD </span>
+                <span id="f2"> FOOD </span>
+                <span id="f3"> FOOD </span>
+                <span id="f4"> FOOD </span>
+                <span id="f5"> FOOD </span>
+            </div>
+        </div>
+        <div class="right">
+            <form action="#">
+                <p><input type="email" name="email" id="email" placeholder="Enter E-mail"></p>
+                <p><input type="password" name="pass" id="pass" placeholder="Enter Password"></p>
+                <p id="forgot"><a href="#" id="forgot">Forgot Password?</a></p>
+                <p><input id="submit" type="submit" value="Let's Go!"></p>
+                <fieldset>
+                    <legend>Or Login with</legend>
+                <a href="#"><img src="../google-icon.png" alt="gi"></a>
+                <a href="#"><img src="../facebook-icon.png" alt="fi"></a>
+                <a href="#"><img src="../apple-icon.png" alt=""></a>
+                </fieldset>
+            </form>
+        </div>
     </div>
 </body>
 </html>
