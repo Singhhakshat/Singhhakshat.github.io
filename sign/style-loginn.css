@@ -115,8 +115,12 @@ nav{
     padding:6px 22px;
     border: 1px solid black;
     color:black;
-    border-radius: 20px;
+    border-radius: 30px;
     text-decoration: none;
+}
+#signup:hover{
+    background-color: #2bc5b4;
+    color: white;
 }
 /* giving container its gigantic size */
 .container{
@@ -145,7 +149,7 @@ nav{
 }
 #welcome{
     font-weight: 700;
-    font-size: 1.2em;
+    font-size: 2em;
 }
 form{
     margin: auto;
