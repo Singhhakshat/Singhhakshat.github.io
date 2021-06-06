@@ -114,6 +114,9 @@ input{
 }
 
 /* Making FOOD text to look good */
+.left-container{
+    padding: 0px 10px;
+}
 #f1{
     color: lightcoral;
     font-size: 3em;
