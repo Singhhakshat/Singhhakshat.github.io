@@ -1,3 +1,13 @@
+@media screen and (max-width: 998px)
+{
+    #nam{
+        display: none;
+    }
+}
+*{
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
 /* Targeting body tag to remove margin and padding */
 body{
     margin: 0;
@@ -9,7 +19,7 @@ body{
 }
 /* Changeing logo image size */
 #img{
-    width: 30px;
+    width: 40px;
 }
 /* Making nav bar boss */
 nav{
@@ -22,14 +32,14 @@ nav{
 #nav-right{
     position: absolute;
     top: 35%;
-    right: 7%;
+    right: 5%;
 }
 #signup{
-    padding:5px;
-    background-color: rgb(113, 221, 5);
+    padding:6px 22px;
+    border: 1px solid black;
+    color:black;
     border-radius: 20px;
     text-decoration: none;
-    color: white;
 }
 /* giving container its gigantic size */
 .container{
@@ -55,53 +65,77 @@ nav{
     text-align: center;
 }
 /* Designing the form to make it look good */
+.form-top{
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+#welcome{
+    font-weight: 700;
+    font-size: 1.2em;
+}
 form{
     margin: auto;
-    width: fit-content;    
-    padding-top: 30px;
+    width: fit-content;
     /* background-color: hotpink; */
 }
 #forgot{
     text-align: right;
-    color: green;
+    color: #2bc5b4;
     text-decoration: none;
 }
 form img{
-    width: 40px;
+    width: 50px;
+    padding: 0px 10px;
 }
 input{
+    font-weight: 550;
+    background-color: white;
+    border: none;
     border-radius: 20px;
     text-align: center;
-    padding: 10px;
+    padding: 16.5px 22px;
     width: 300px;
-    border: 1px solid;
 }
 #submit{
+    width: 300px;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 10;
     border: none;
-    background-color: lawngreen;
+    color: white;
+    background-color: #2bc5b4;
 }
 #submit:hover{
     background-color: rgb(113, 221, 5);
+}
+#ocw{
+    color: #a9a9a9;
 }
 
 /* Making FOOD text to look good */
 #f1{
     color: lightcoral;
     font-size: 3em;
+    font-weight: 800;
 }
 #f2{
     color: lightgreen;
     font-size: 2.5em;
+    font-weight: 800;
 }
 #f3{
     color: lightskyblue;
     font-size: 2em;
+    font-weight: 800;
 }
 #f4{
     color: brown;
     font-size: 1.5em;
+    font-weight: 800;
 }
 #f5{
     color: burlywood;
     font-size: 1em;
+    font-weight: 700;
 }

@@ -8,14 +8,15 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style-loginn.css">
     <title>Login!</title>
 </head>
 <body>
     <nav>
         <a href="../index.html"><img id="img" src="../logo.png" alt="logo-home"></a>
-        <span id="nav-right">Not a member? 
-        <a id="signup" href="#">Sign-Up</a>
+        <span id="nav-right"><span id="nam">Not a member?  </span>
+        <a id="signup" href="#">Sign Up</a>
         </span> 
     </nav>
     <div class="container">
@@ -30,16 +31,19 @@
         </div>
         <div class="right">
             <form action="#">
+                
+            <div class="form-top">
+                <span id="welcome">Welcome.</span><br>
+                <span id="w-text">Log in or sign up with your email address</span>
+            </div>
                 <p><input type="email" name="email" id="email" placeholder="Enter E-mail"></p>
                 <p><input type="password" name="pass" id="pass" placeholder="Enter Password"></p>
                 <p id="forgot"><a href="#" id="forgot">Forgot Password?</a></p>
                 <p><input id="submit" type="submit" value="Let's Go!"></p>
-                <fieldset>
-                    <legend>Or Login with</legend>
+                    <p id="ocw">OR CONNECT WITH</p>
                 <a href="#"><img src="../google-icon.png" alt="gi"></a>
                 <a href="#"><img src="../facebook-icon.png" alt="fi"></a>
                 <a href="#"><img src="../apple-icon.png" alt=""></a>
-                </fieldset>
             </form>
         </div>
     </div>
