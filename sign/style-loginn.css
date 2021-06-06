@@ -1,7 +1,84 @@
-@media screen and (max-width: 998px)
+@media screen and (max-width: 1200px)
 {
     #nam{
         display: none;
+    }
+    .left, .right{
+        min-width: 100%;
+        min-height: 100px;
+    }
+    .rightest{
+        z-index: -100;
+    }
+}
+@media screen and (min-width: 1200px) 
+{
+    .right{
+        margin: auto;
+        padding: 50px;
+    }
+    .left{
+        padding: 10px;
+        width: 28vw;
+    }
+    .fo{
+        display: block;
+    }
+    .left-container{
+        text-align: left;
+    }
+    .f1{
+        font-size: 4em !important;
+    }
+    .f2{
+        font-size: 6em !important;
+    }
+    .f3{
+        font-size: 8em !important;
+    }
+    .f4{
+        font-size: 6em !important;
+    }
+    .f5{
+        font-size: 4em !important;
+    }
+    .rightest{
+        width: 28vw;
+        padding: 10px 10px;
+    }
+    .eo{
+        display: block;
+        text-align: right;
+    }
+    .e1{
+        color: lightcoral;
+        font-size: 4em;
+        font-weight: 800;
+    }
+    .e2{
+        color: lightgreen;
+        font-size: 5em;
+        font-weight: 800;
+    }
+    .e3{
+        color: lightskyblue;
+        font-size: 7em;
+        font-weight: 800;
+    }
+    .e4{
+        color: brown;
+        font-size: 7em;
+        font-weight: 800;
+    }
+    .e5{
+        color: burlywood;
+        font-size: 5em;
+        font-weight: 800;
+    }
+    .e6{
+        color: pink;
+        font-size: 4em;
+        font-weight: 800;
     }
 }
 *{
@@ -14,7 +91,7 @@ body{
     padding: 0;
 }
 /* Making left container and right container inline block */
-.left, .right{
+.left, .right, .rightest{
     display: inline;
 }
 /* Changeing logo image size */
@@ -48,13 +125,9 @@ nav{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    align-content: center;
 }
 /* Designing Left and right Containers */
-.left, .right{
-    min-width: 100%;
-    min-height: 100px;
-}
 .left{
     text-align: center;
     margin-top: 20px;
@@ -117,66 +190,28 @@ input{
 .left-container{
     padding: 0px 10px;
 }
-#f1{
+.f1{
     color: lightcoral;
     font-size: 3em;
     font-weight: 800;
 }
-#f2{
+.f2{
     color: lightgreen;
     font-size: 2.5em;
     font-weight: 800;
 }
-#f3{
+.f3{
     color: lightskyblue;
     font-size: 2em;
     font-weight: 800;
 }
-#f4{
+.f4{
     color: brown;
     font-size: 1.5em;
     font-weight: 800;
 }
-#f5{
+.f5{
     color: burlywood;
     font-size: 1em;
     font-weight: 700;
-}
-
-.rightest{
-    display: none;
-    text-align: center;
-    margin: auto;
-    width: fit-content;
-    padding: 10px 10px;
-}
-#e1{
-    color: lightcoral;
-    font-size: 3.5em;
-    font-weight: 800;
-}
-#e2{
-    color: lightgreen;
-    font-size: 3em;
-    font-weight: 800;
-}
-#e3{
-    color: lightskyblue;
-    font-size: 2.5em;
-    font-weight: 800;
-}
-#e4{
-    color: brown;
-    font-size: 2em;
-    font-weight: 800;
-}
-#e5{
-    color: burlywood;
-    font-size: 1.5em;
-    font-weight: 800;
-}
-#e6{
-    color: brown;
-    font-size: 1em;
-    font-weight: 800;
 }
